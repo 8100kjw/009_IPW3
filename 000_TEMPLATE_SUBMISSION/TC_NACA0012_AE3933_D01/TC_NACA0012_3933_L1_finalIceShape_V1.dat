@@ -3,9 +3,6 @@
 #   IPW-3 Final Ice Shape DATA SUBMITTAL FORM for Test Case NACA0012_AE3933, May 18th 2026
 #
 #       NOMENCLATURE:
-#                  X [m]:  X-coordinate of the clean/reference surface
-#                  Y [m]:  Y-coordinate of the clean/reference surface
-#                  Z [m]:  Z-coordinate of the clean/reference surface
 #             X_ICED [m]:  X-coordinate of the iced surface
 #             Y_ICED [m]:  Y-coordinate of the iced surface
 #             Z_ICED [m]:  Z-coordinate of the iced surface
@@ -36,28 +33,28 @@
 
 AUXDATA NUM_LAYERS  = "insert the number of total ice layers"
                                               
-VARIABLES = "X" "Y" "Z" "X_ICED" "Y_ICED" "Z_ICED"
+VARIABLES = "X_ICED" "Y_ICED" "Z_ICED"
 
 ZONE T="SLICE_Y_0p9144_BINS01_KS_XXmm_SINGLE_LAYER"
--999 -999 -999 -999 -999 -999
+-999 -999 -999
 
 ZONE T="SLICE_Y_0p9144_BINS03_KS_XXmm_SINGLE_LAYER"
--999 -999 -999 -999 -999 -999
+-999 -999 -999
 
 ZONE T="SLICE_Y_0p9144_BINS07_KS_XXmm_SINGLE_LAYER"
--999 -999 -999 -999 -999 -999
+-999 -999 -999
 
 ZONE T="SLICE_Y_0p9144_BINS15_KS_XXmm_SINGLE_LAYER"
--999 -999 -999 -999 -999 -999
+-999 -999 -999
 
 ZONE T="SLICE_Y_0p9144_BINS01_KS_XXmm_FINAL_LAYER"
--999 -999 -999 -999 -999 -999
+-999 -999 -999
 
 ZONE T="SLICE_Y_0p9144_BINS03_KS_XXmm_FINAL_LAYER"
--999 -999 -999 -999 -999 -999
+-999 -999 -999
 
 ZONE T="SLICE_Y_0p9144_BINS07_KS_XXmm_FINAL_LAYER"
--999 -999 -999 -999 -999 -999
+-999 -999 -999
 
 ZONE T="SLICE_Y_0p9144_BINS15_KS_XXmm_FINAL_LAYER"
--999 -999 -999 -999 -999 -999
+-999 -999 -999
